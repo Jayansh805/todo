@@ -21,6 +21,9 @@ Now open another terminal
     Go to backend
   </li>
   <li>
+    create a .env file and write the content
+  </li>
+  <li>
     run command "npm install"
   </li>
   <li>
