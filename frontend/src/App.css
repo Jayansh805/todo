@@ -1,0 +1,285 @@
+.App {
+  text-align: center;
+}
+
+.home_div, .join_div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.home_div button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.home_div button:hover {
+  background-color: #45a049;
+}
+
+.home h1{
+  color: #4CAF50;
+  font-size: 2em;
+}
+
+.join_div h1 {
+  color: black;
+  font-size: 2em;
+}
+
+.join_div form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.join_div label {
+  margin: 10px 0 5px;
+}
+
+.join_div input {
+  padding: 10px 0px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  text-align: center;
+}
+
+.join_div button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.join_div button:hover {
+  background-color: #45a049;
+}
+
+.login_div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.login_div h1 {
+  color: black;
+  font-size: 2em;
+}
+
+.login_div form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.login_div label {
+  margin: 10px 0 5px;
+}
+
+.login_div input {
+  padding: 10px 0px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  text-align: center;
+}
+
+.login_div button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.login_div button:hover {
+  background-color: #45a049;
+}
+
+.profile_div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.profile_div h1 {
+  color: black;
+  font-size: 2em;
+}
+
+.profile_div button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.profile_div button:hover {
+  background-color: #45a049;
+}
+
+.profile_div .todo-card {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 20px;
+  width: 80%;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  margin-top: 30px;
+}
+
+.profile_div .todo-card h2 {
+  color: #333;
+  font-size: 1.5em;
+}
+
+.profile_div .todo-card button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.profile_div .todo-card button:hover {
+  background-color: #45a049;
+}
+
+.profile_div .todo-card ul {
+  list-style-type: none;
+  padding: 0;
+} 
+
+.profile_div .todo-card ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 0px 10px 10px 10px;
+}
+
+.profile_div .todo-card ul li button {
+  background-color: #f44336;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.profile_div .todo-card ul li button:hover {
+  background-color: #d32f2f;
+}
+
+.profile_div .todo-card form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.profile_div .todo-card form input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+}
+.profile_div .todo-card form button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.profile_div .todo-card form button:hover {
+  background-color: #45a049;
+}
+
+.profile_div .profile-header {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  padding: 20px;
+}
+.profile_div .profile-header h1 {
+  margin: 0;
+  color: black;
+  font-size: 2em;
+}
+
+.profile_div .profile-header button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.profile_div .profile-header button:hover {
+  background-color: #45a049;
+}
+
+.profile_div input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.profile_div input[type="text"] {
+  width: 80%;
+}
+
+.showbox button {
+  margin: 0px 20px;
+  width: 100px
+}
+
+
